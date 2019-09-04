@@ -1,14 +1,14 @@
 ### Date created
-Date Created: 9/4/2019
+9/4/2019
 
 ### Project Title
-Project Title: Git Project for Programming for Data Science - Bicycle Data
+Git Project for Programming for Data Science - Bicycle Data
 
 ### Description
-Description: By leveraging this python script, you can interact with bicycle data across 3 cities (Chicago, NYC, DC) and review stats such as average duration, gender counts, etc.
+By leveraging this python script, you can interact with bicycle data across 3 cities (Chicago, NYC, DC) and review stats such as average duration, gender counts, etc.
 
 ### Files used
-Files used: chicago.csv, new_york_city.csv, washington.csv
+chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 Udacity
