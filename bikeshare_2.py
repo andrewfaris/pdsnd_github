@@ -28,7 +28,7 @@ def get_filters():
              break
 
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, march, april , june)
     while True:
         months = ('january', 'february', 'march', 'april', 'may', 'june', 'all')
         month = input('Enter the month you would like to explore (january, february, march, april, may, june) or type All to explore all months: ')
@@ -171,7 +171,7 @@ def user_stats(df):
         # Display counts of gender
         print('Counts of gender: ', df['Gender'].value_counts())
     else:
-        print('No gender data available.')
+        print('No gender data is available.')
 
     if 'Birth Year' in df.columns:
         # Display earliest, most recent, and most common year of birth
@@ -179,7 +179,7 @@ def user_stats(df):
         print('Most Recent Birth Year: ', df['Birth Year'].max())
         print('Most Common Birth Year: ', df['Birth Year'].mode()[0])
     else:
-        print('No birth year data available.')
+        print('No birth year data is available.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -195,7 +195,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter exactly yes or no.\n')
         if restart.lower() != 'yes':
             break
 
