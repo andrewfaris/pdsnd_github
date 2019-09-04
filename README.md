@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+Date Created: 9/4/2019
 
 ### Project Title
-Replace the Project Title
+Project Title: Git Project for Programming for Data Science - Bicycle Data
 
 ### Description
-Describe what your project is about and what it does
+Description: By leveraging this python script, you can interact with bicycle data across 3 cities (Chicago, NYC, DC) and review stats such as average duration, gender counts, etc.
 
 ### Files used
-Include the files used
+Files used: chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
